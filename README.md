@@ -4,7 +4,7 @@
 ## Honeypots Deployed
   1. Ubuntu - Dionaea with HTTP
   2. Ubuntu - Snort
-  3. Ubuntu - Glastopf*******************************
+  3. Ubuntu - Suricata (deleted)
   4. Ubuntu - Suricata
   5. Ubuntu - Cowrie
 	
@@ -26,10 +26,12 @@ wget "http://35.202.59.12/api/script/?text=true&script_id=2" -O deploy.sh && sud
 A summary of the data collected: number of attacks, number of malware samples, etc.
 ## Attack Summary
 Note: The "None" sensor listed under TOP 5 Sensors was a duplicate suricata honeypot I accidentally deleted
-![MHN Admin Console](/images/attackSummary.png)
+
+![MHN Admin Console](images/attackSummary.png)
 	
 	
 ## Unresolved Questions
-	None at this time
+It's interesting that the country of top attacker IP is unknown. I have not been able to figure out why that is.
 	
 ## JSON Export
+[JSON Export](session.json)
