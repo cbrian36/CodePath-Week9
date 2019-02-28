@@ -4,7 +4,7 @@
 ## Honeypots Deployed
   1. Ubuntu - Dionaea with HTTP
   2. Ubuntu - Snort
-  3. Ubuntu - Glastopf
+  3. Ubuntu - Glastopf*******************************
   4. Ubuntu - Suricata
   5. Ubuntu - Cowrie
 	
@@ -25,43 +25,9 @@ wget "http://35.202.59.12/api/script/?text=true&script_id=2" -O deploy.sh && sud
 	
 A summary of the data collected: number of attacks, number of malware samples, etc.
 ## Attack Summary
-### Number of Attacks: X
-### Numer of Malware Samples: X
-
-### Top 5 Attacker IPs:
-  1. 
-  2. 
-  3. 
-  4. 
-  5. 
-
-### Top 5 Attacked Ports:
-  1. 
-  2. 
-  3. 
-  4. 
-  5. 
-
-### Top 5 Honey Pots:
-  1. 
-  2. 
-  3. 
-  4. 
-  5. 
-  
-### Top 5 Sensors:
-  1. 
-  2. 
-  3. 
-  4. 
-  5. 
-  
-### Top 5 Attacks Signatures:
-  1. 
-  2. 
-  3. 
-  4. 
-  5. 
+Note: The "None" sensor listed under TOP 5 Sensors was a duplicate suricata honeypot I accidentally deleted
+(images/attackSummary.png)
+	
 	
 ## Unresolved Questions
 	None at this time
