@@ -26,7 +26,7 @@ wget "http://35.202.59.12/api/script/?text=true&script_id=2" -O deploy.sh && sud
 A summary of the data collected: number of attacks, number of malware samples, etc.
 ## Attack Summary
 Note: The "None" sensor listed under TOP 5 Sensors was a duplicate suricata honeypot I accidentally deleted
-(images/attackSummary.png)
+![MHN Admin Console](/images/attackSummary.png)
 	
 	
 ## Unresolved Questions
